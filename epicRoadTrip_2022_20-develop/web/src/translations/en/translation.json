@@ -1,0 +1,79 @@
+{
+    "Home": {
+        "New_Road_Trip": "Prepare my new epic roadtrip",
+        "IndicatePlace": "Select destination",
+        "Enjoy": "Enjoy",
+        "Travel": "Travel",
+        "Sleep": "Sleep",
+        "Drink": "Drink",
+        "Eat": "Eat",
+        "TheMostVisited": "The most visited places",
+        "TheBestPlaces": "The best places near you",
+        "Search": "Search",
+        "MyLatestResearch": "My latest research",
+        "return": "Go back",
+        "cancel": "Cancel",
+        "pay": "Pay",
+        "error": "The page you requested is unavailable",
+        "errorMsg": "An error occurred.",
+        "home": "Home"
+    },
+    "Navbar": {
+        "logout":"Logout",
+        "login": "Login"
+    },
+    "Footer": {
+        "RoadTrip": "Roadtrip",
+        "RoadTripSearch": "Roadtrip Search",
+        "BuyRoadTrip": "Buy roadtrip",
+        "Your Roadtrip": "Your roadtrip",
+        "Account": "Account"
+    },
+    "Account":{
+        "PersonalInfo": "Personal informations",
+        "MyRoadtrips": "My roadtrips",
+        "MyFavorites": "My favorites",
+        "DeleteMyAccount": "Delete my account"
+    },
+    "Personal Info": {
+        "Modification": "Modification",
+        "Password": "Password"
+    },
+    "MyRoadTrip": {
+        "Destinations": "Destinations",
+        "IntermediateStages": "Intermediate stages", 
+        "SelectedActivities": "Selected activities",
+        "Details": "Details",
+        "NewRoadTrip": "Add new roadtrip",
+        "error": "Please, enter a departure city and an arrival city.",
+        "next": "Next step",
+        "previous": "Go back",
+        "finish": "Finish",
+        "add": "Add to road trip",
+        "save": "Save",
+        "disconnected": "You must be logged in to create a road trip !",
+        "checkout": "Roadtrip checkout: "
+    },
+    "SignUp":{
+        "SignUp":"Sign up",
+        "Login": "Login",
+        "EmailAddress": "Email",
+        "Password": "Password",
+        "DoYouHaveAlreadyAccount": "Already have an account ?",
+        "Login With Google": "Login with Google",
+        "Login With Facebook": "Login with Facebook"
+    },
+    "SignIn":{
+        "SignIn":"Sign in",
+        "EmailAddress": "Email",
+        "Password": "Password",
+        "Don'tHaveAnAccount": "Don't have an account ? Sign up",
+        "Login With Google": "Login with Google",
+        "Login With Facebook": "Login with Facebook"
+    },
+    "DeleteMyAccount":{
+        "DeleteAccount": "Delete account",
+        "Cancel": "Cancel",
+        "About": "You are about to delete your account"
+    }
+}

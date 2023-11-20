@@ -1,0 +1,9 @@
+// describe("roadtrip", () => {
+//     it("visit roadtrip page", () => {
+//       cy.visit("/roadtripinit");
+//       cy.contains("My road trip")
+//       cy.url().should("include", "/roadtripinit")
+//       cy.get("#login").click()
+//     });
+//   });
+

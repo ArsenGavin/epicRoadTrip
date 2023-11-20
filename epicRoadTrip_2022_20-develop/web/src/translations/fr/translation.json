@@ -1,0 +1,79 @@
+{
+    "Home": {
+        "New_Road_Trip": "Préparer mon nouveau roadtrip",
+        "IndicatePlace": "Choisissez une destination",
+        "Enjoy": "Activité",
+        "Travel": "Voyage",
+        "Sleep": "Dormir",
+        "Drink": "Boire",
+        "Eat": "Manger",
+        "TheMostVisited": "Les lieux les plus visités",
+        "TheBestPlaces": "Les meilleurs endroits proches de vous",
+        "Search": "Rechercher",
+        "MyLatestResearch": "Ma dernière recherche",
+        "return": "Retour",
+        "cancel": "Annuler",
+        "pay": "Pay",
+        "error": "La page que vous demandez n&apos;est pas disponible.",
+        "errorMsg": "Une erreur s&apos;est produite.",
+        "home": "Accueil"
+    },
+    "Navbar": {
+        "logout":"Déconnexion",
+        "login": "Connexion"
+    },
+    "Footer": {
+        "RoadTrip": "Voyage",
+        "RoadTripSearch": "Rechercher roadtrip",
+        "BuyRoadTrip": "Achat de roadtrip",
+        "Your Roadtrip": "Votre roadtrip",
+        "Account": "Compte"
+    },
+    "Account":{
+        "PersonalInfo": "Informations personnelles",
+        "MyRoadtrips": "Mes roadtrips",
+        "MyFavorites": "Mes favoris",
+        "DeleteMyAccount": "Supprimer mon compte"
+    },
+    "Personal Info": {
+        "Modification": "Modification",
+        "Password": "Mot De Passe"
+    },
+    "MyRoadTrip": {
+        "Destinations": "Destinations",
+        "IntermediateStages": "Étapes Intermédiaires", 
+        "SelectedActivities": "Les activités sélectionnées",
+        "Details": "Détails",
+        "NewRoadTrip": "Ajouter un nouveau roadtrip",
+        "error": "Veuillez entrer une ville de départ et d'arrivée.",
+        "next": "Suivant",
+        "previous": "Retour",
+        "finish": "Terminer",
+        "add": "Ajouter au roadtrip",
+        "save": "Enregistrer",
+        "disconnected": "Vous devez être connecté(e) pour créer un roadtrip !",
+        "checkout": "Paiement du roadtrip: "
+    },
+    "SignUp":{
+        "SignUp":"Inscription",
+        "Login": "Identifiant",
+        "EmailAddress": "Email",
+        "Password": "Mot de passe",
+        "DoYouHaveAlreadyAccount": "Aviez-vous déjà un compte ? Connectez-vous",
+        "Login With Google": "Connectez-vous avec Google",
+        "Login With Facebook": "Connectez-vous avec Facebook"
+    },
+    "SignIn":{
+        "SignIn":"Se connecter",
+        "EmailAddress": "Email",
+        "Password": "Mot de passe",
+        "Don'tHaveAnAccount": " Vous n'avez pas de compte ? Inscrivez-vous",
+        "Login With Google": "Connectez-vous avec Google",
+        "Login With Facebook": "Connectez-vous avec Facebook"
+    },
+    "DeleteMyAccount":{
+        "DeleteAccount": "Suppression Du Compte",
+        "Cancel": "Annuler",
+        "About": "Vous êtes sur le point de supprimer votre compte"
+    }
+}

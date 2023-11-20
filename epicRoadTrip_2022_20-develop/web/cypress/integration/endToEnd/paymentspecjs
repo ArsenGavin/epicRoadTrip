@@ -1,0 +1,20 @@
+describe("Payment", () => {
+  it("Renders the payment button", () => {
+    cy.visit("/paiement");
+    expect("#paiement").to.exist;
+  });
+
+  // it("Renders the checkout success page", () => {
+  //   cy.visit("/checkout/success");
+  //   expect("#success").to.exist;
+  //   cy.contains("Nous vous remercions pour votre commande !");
+  // });
+
+  // it("Renders the payment button", () => {
+  //   cy.visit("/checkout/failure");
+  //   expect("#failure").to.exist;
+  //   cy.contains(
+  //     "Une erreur s'est produite lors du paiement de votre commande."
+  //   );
+  // });
+});

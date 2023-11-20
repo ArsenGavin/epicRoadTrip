@@ -1,0 +1,76 @@
+name: Test & Deploy
+
+on:
+  push:
+    branches:
+      - develop
+      - master
+
+jobs:
+  backend-tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.x]
+      max-parallel: 1
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm install
+        working-directory: ./api
+      - run: npm test
+        working-directory: ./api
+
+  frontend-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          working-directory: ./web
+      - run: npm install
+        working-directory: ./web
+      - name: Cypress tests
+        uses: cypress-io/github-action@v2
+        with:
+          working-directory: ./web
+          browser: chrome
+          headless: true
+          build: npm run cypress
+
+  build-back:
+    needs: [backend-tests, frontend-tests]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: akhileshns/heroku-deploy@v3.12.12
+        with:
+          appdir: api
+          heroku_api_key: "${{secrets.HEROKU_API_KEY}}"
+          heroku_app_name: epicroadtripapi
+          heroku_email: "${{secrets.HEROKU_EMAIL}}"
+    strategy:
+      matrix:
+        node-version:
+          - 14.x
+      max-parallel: 1
+
+  build-front:
+    needs: [backend-tests, frontend-tests]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: akhileshns/heroku-deploy@v3.12.12
+        with:
+          appdir: web
+          heroku_api_key: "${{secrets.HEROKU_API_KEY}}"
+          heroku_app_name: epicroad
+          heroku_email: "${{secrets.HEROKU_EMAIL}}"
+    strategy:
+      matrix:
+        node-version:
+          - 14.x
+      max-parallel: 1
