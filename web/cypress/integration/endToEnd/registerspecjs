@@ -1,0 +1,11 @@
+// describe("Register", () => {
+//     it("Register in successfully", () => {
+//       cy.visit("/inscription");
+
+//       cy.get("#email").type(new Date().getDay() + "a" + new Date().getMinutes() + "cocolasticot1@test.fr");
+//       cy.get("#login").type(new Date().getDay() + "log" + new Date().getMinutes() + "cocolasticot1");
+//       cy.get("#password").type(`${"bonjour"}{enter}`);
+
+//       cy.url().should('include', '/connexion');
+//   });
+// });
